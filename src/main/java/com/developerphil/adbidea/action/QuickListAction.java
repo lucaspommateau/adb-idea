@@ -31,6 +31,9 @@ public class QuickListAction extends QuickSwitchSchemeAction implements DumbAwar
 
             addAction("com.developerphil.adbidea.action.StartWithDebuggerAction", group);
             addAction("com.developerphil.adbidea.action.RestartWithDebuggerAction", group);
+            addAction("com.developerphil.adbidea.action.ClearDataAndRestartWithDebuggerAction", group);
+            addAction("com.developerphil.adbidea.action.ClearDataAndRestartAction2", group);
+            addAction("com.developerphil.adbidea.action.ClearDataAndRestartAction3", group);
         }
 
     }

@@ -194,6 +194,12 @@
                     text="ADB Restart App With Debugger"
                     description="Restarts the current application and attach the debugger">
             </action>
+
+            <action id="com.developerphil.adbidea.action.ClearDataAndRestartWithDebuggerAction"
+                    class="com.developerphil.adbidea.action.ClearDataAndRestartWithDebuggerAction"
+                    text="ADB Clear and Restart with debugger"
+                    description="Clears the private storage of the app and restarts it with debugger">
+            </action>
             <add-to-group group-id="AndroidToolsGroup" anchor="first"/>
         </group>
     </actions>

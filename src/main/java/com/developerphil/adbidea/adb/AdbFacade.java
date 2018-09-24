@@ -58,7 +58,7 @@ public class AdbFacade {
     }
 
     public static void clearDataAndRestart(Project project) {
-        executeOnDevice(project, new ClearDataAndRestartCommand());
+        executeOnDevice(project, new ClearDataAndRestartWithDebuggerCommand());
     }
 
     private static void executeOnDevice(final Project project, final Command runnable) {
